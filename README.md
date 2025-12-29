@@ -2,39 +2,39 @@
 
 
     QA-trainee-assignment-autumn-2025-Avito
-    ├── task_1
-    │   ├── bugs.md
-    │   └── bugs.png
-    ├── task_2
-    │   ├── base
-    │   │   ├── __init__.py
-    │   │   ├── base_page.py
-    │   │   └── locators.py
-    │   ├── data
-    │   │   ├── __init__.py
-    │   │   └── testcase_data.py
-    │   ├── images
-    │   │   ├── BR1.png
-    │   │   └── BR2.png
-    │   ├── pages
-    │   │   ├── __init__.py
-    │   │   ├── create_task_page.py
-    │   │   ├── open_task_page.py
-    │   │   ├── project_board_page.py
-    │   │   └── search_task_page.py
-    │   ├── tests
-    │   │   ├── __init__.py
-    │   │   ├── test_create_task.py
-    │   │   ├── test_open_task.py
-    │   │   ├── test_project_board.py
-    │   │   └── test_search_task.py
-    │   ├── __init__.py
-    │   ├── BUGS.md
-    │   ├── conftest.py
-    │   └── TESTCASES.md
-    ├── .gitignore
-    ├── README.md
-    └── requirements.txt
+    ├── task_1 - папка 1 задания
+    │   ├── bugs.md - файл со списком найденных багов
+    │   └── bugs.png - скриншот страницы карьерного сайта Авито
+    ├── task_2 - папка 2 задания
+    │   ├── base - папка с базовыми компонентами
+    │   │   ├── __init__.py - инициализация пакета
+    │   │   ├── base_page.py - базовые методы работы
+    │   │   └── locators.py - локаторы элементов
+    │   ├── data - папка с тестовыми данными
+    │   │   ├── __init__.py - инициализация пакета
+    │   │   └── testcase_data.py - данные для тест-кейсов
+    │   ├── images - папка со скриншотами багов
+    │   │   ├── BR1.png - скриншот 1 бага
+    │   │   └── BR2.png - скриншот 2 бага
+    │   ├── pages - папка с методами для работы со страницами
+    │   │   ├── __init__.py - инициализация пакета
+    │   │   ├── create_task_page.py - страница создания задачи
+    │   │   ├── open_task_page.py - страница открытия задачи
+    │   │   ├── project_board_page.py - страница перехода на доску проекта
+    │   │   └── search_task_page.py - страница поиска задачи
+    │   ├── tests - папка с автотестами
+    │   │   ├── __init__.py - инициализация пакета
+    │   │   ├── test_create_task.py - тест создания задачи
+    │   │   ├── test_open_task.py - тест открытия задачи
+    │   │   ├── test_project_board.py - тест перехода на доску проекта
+    │   │   └── test_search_task.py - тест поиска задачи
+    │   ├── __init__.py - инициализация пакета
+    │   ├── BUGS.md - файл с описанием найденных багов
+    │   ├── conftest.py - фикстура
+    │   └── TESTCASES.md - тесткейсы ко 2 заданию
+    ├── .gitignore - игнорируемые файлы
+    ├── README.md - описание проекта и инструкция
+    └── requirements.txt - зависимости
 
 <br>
 
